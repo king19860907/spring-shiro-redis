@@ -23,7 +23,7 @@ public class RedisTemplateTest {
 
     @Before
     public void before(){
-        ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("spring-redis-shiro.xml");
         redisTemplate = (RedisTemplate)context.getBean("redisTemplate");
     }
 
