@@ -17,7 +17,7 @@ import java.util.Map.Entry;
  * Created by majun on 29/12/2017.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = {"classpath:applicationContext.xml"})
+@ContextConfiguration(locations = {"classpath:spring-redis-shiro.xml"})
 public class SpringShiroTest {
 
     @Test
