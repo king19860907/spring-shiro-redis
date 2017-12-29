@@ -13,7 +13,7 @@ import java.util.Set;
 /**
  * Created by majun on 28/12/2017.
  */
-public class RedisSessionDao extends AbstractRedisSessionDao<Session> {
+public class DefaultRedisSessionDao extends AbstractRedisSessionDao<Session> {
 
     @Override
     protected void doSave(Session session) {

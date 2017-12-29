@@ -27,7 +27,7 @@
         </property>
     </bean>
 
-    <bean id="sessionDao" class="org.majun.shiro.session.dao.RedisSessionDao">
+    <bean id="sessionDao" class="org.majun.shiro.session.dao.DefaultRedisSessionDao">
         <property name="keyPrefix" value="Shiro_Session_test_"/>
         <property name="redisTemplate" ref="redisTemplate"/>
         <property name="sessionIdGenerator">
